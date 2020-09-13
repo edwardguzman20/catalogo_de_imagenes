@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(250, 246, 246);
+}
+
+
+#titulo{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 800 px){
+    .contenedor {
+
+        width: 100%;
+    }
+}
